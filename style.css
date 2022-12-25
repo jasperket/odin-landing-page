@@ -32,9 +32,53 @@ a {
 h3 {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0;
 }
 
 header {
     background-color: #1f2937;
+    padding-block: 24px;
+}
+
+.wrapper {
     padding-inline: 12.5vw;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-block: 100px;
+    gap: 48px;
+}
+
+#hero div {
+    flex: 1 1 0;
+}
+
+#hero #image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+#description p, button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    padding-block: 8px;
+    padding-inline: 36px;
+    border: none;
+    border-radius: 8px;
 }
