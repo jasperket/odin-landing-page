@@ -186,3 +186,16 @@ h4 {
 #container p {
     color: #f9faf8;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding-block: 36px;
+}
+
+footer p {
+    color: white;
+    margin:0;
+}
