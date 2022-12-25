@@ -122,3 +122,67 @@ h2 {
     font-size: 18px;
     color: #1f2937;
 }
+
+#quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+#quote-wrapper {
+    width: 900px;
+    padding-top: 128px;
+    padding-bottom: 100px;
+}
+
+#quote-wrapper p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+#quote-wrapper div {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#container {
+    box-sizing: border-box;
+    height: 150px;
+    background-color: #3882f6;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    align-items: center;
+    padding-inline:100px;
+}
+
+h4, #container div p {
+    margin: 0;
+}
+
+#container button {
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#container p {
+    color: #f9faf8;
+}
